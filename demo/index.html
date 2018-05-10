@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="content-type">
+        <title>
+            Jsbridge
+        </title>
+		<script src="index.js" type="text/javascript"></script>
+		        <script type="text/javascript">  
+            function getFileUrl(sourceId) {  
+                var url;
+                if (navigator.userAgent.indexOf("MSIE")>=1) { // IE  
+                    url = document.getElementById(sourceId).value;  
+                } else if(navigator.userAgent.indexOf("Firefox")>0) { // Firefox  
+                    url = window.URL.createObjectURL(document.getElementById(sourceId).files.item(0));  
+                } else if(navigator.userAgent.indexOf("Chrome")>0) { // Chrome  
+                    url = window.URL.createObjectURL(document.getElementById(sourceId).files.item(0));  
+                }  
+                return url;  
+            }  
+            function preImg(sourceId, targetId) {   
+                var url = getFileUrl(sourceId);   
+                var imgPre = document.getElementById(targetId);   
+                imgPre.src = url;   
+            }
+			function getImg(sourceId, targetId){
+				var u = navigator.userAgent;
+				var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+				var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+				if(isAndroid){
+					//android
+					window.myfile.openPhtoto();
+				}else{
+					//chrome
+					preImg(sourceId, targetId);
+				}
+			//调用Android的方法启动相册
+			}
+			  function backPress() {
+				//$('.hideComment').css("display") == "block"
+				//不返回，交给移动端处理，
+				watch.setTitle("1");
+				if (false) {
+					return;
+				}
+
+				watch.setTitle("监测");
+				return 0;
+
+				}
+        </script> 
+    </head>
+    
+    <body>
+        <p>
+            <xmp id="show">
+            </xmp>
+        </p>
+        <p>
+            <input type="text" id="text1" value="admin" />
+        </p>
+        <p>
+            <input type="text" id="text2" value="123456" />
+        </p>
+        <p>
+            <input type="button" id="enter" value="JS发送到Android: DefaultHandler" onclick="testClick();"
+            />
+        </p>
+        <p>
+            <input type="button" id="enter1" value="JS发送到Android: RegistHandler" onclick="testClick1();"
+            />
+        </p>
+        <p>
+            <input type="button" id="enter2" value="显示html" onclick="testDiv();" />
+        </p>
+		                <form action="">   
+					<input type="file" value="选择照片" onclick="getImg(this.id,'photo')" />  
+                    <br />  
+                    <br />  
+                    <img id="photo" src="" width="300px" height="300px" style="display: block;" />  
+                </form>  
+    </body>
+    
+</html>
