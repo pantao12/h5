@@ -28,7 +28,7 @@ body a:hover{
 /*--banner--*/
 .banner{
 	min-height: 700px;
-	background:url(../images/a.jpg)no-repeat center 0px;
+	background:url(images/a.jpg)no-repeat center 0px;
 	background-size:cover;
 	position: relative;
 }
@@ -415,7 +415,7 @@ body a:hover{
     text-decoration: none;
     height: 53px;
     width: 32px;
-    background: url("../images/icons.png") no-repeat 0px 0px;
+    background: url("images/icons.png") no-repeat 0px 0px;
 }
 .callbacks_nav.next {
     left: auto;
@@ -677,7 +677,7 @@ p {
 /*--//about--*/
 /*--features--*/
 .features,.portfolio{
-    background: url(../images/slid.jpg)no-repeat 0px 0px;
+    background: url(images/slid.jpg)no-repeat 0px 0px;
     background-size: cover;
     padding: 6em 0;
 }
@@ -777,7 +777,7 @@ img.img-responsive {
     margin-right: 0.5em;
 }
 .social-icons ul li a {
-    background: url(../images/social-icons.png) no-repeat 0px 0px;
+    background: url(images/social-icons.png) no-repeat 0px 0px;
     display: block;
     height: 35px;
     width: 35px;
@@ -931,7 +931,7 @@ img.img-responsive {
 /*--//portfolio--*/
 /*--testimonial--*/
 .testi-left {
-    background: url(../images/a.jpg)no-repeat 0px 0px;
+    background: url(images/a.jpg)no-repeat 0px 0px;
     background-size: cover;
     text-align: center;
 	padding:0;
@@ -950,7 +950,7 @@ img.img-responsive {
     margin: 3em 0 0.5em;
 }
 .testi-left p span {
-    background: url(../images/1.png)no-repeat 0px 0px;
+    background: url(images/1.png)no-repeat 0px 0px;
     width: 24px;
     height: 24px;
     display: inline-block;
@@ -1126,7 +1126,7 @@ img.img-responsive {
 }
 /*--footer--*/
 .footer{
-    background: url(../images/slid.jpg)no-repeat 0px 0px;
+    background: url(images/slid.jpg)no-repeat 0px 0px;
     background-size: cover;
     padding: 2em 0;
 }
@@ -1253,7 +1253,7 @@ img.img-responsive {
 	height: 32px;
 	border: none;
 	text-indent: 100%;
-	background: url("../images/move-up.png") no-repeat 0px 0px;
+	background: url("images/move-up.png") no-repeat 0px 0px;
 }
 #toTopHover {
 	width: 32px;
