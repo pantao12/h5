@@ -2,40 +2,32 @@
 <html> 
 <head> 
 <script type="text/javascript" src="flowplayer-3.2.8.min.js"></script> 
-<title>RTMP Sample Player FlowPlayer</title> 
+<title>FlowPlayer</title> 
 </head> 
    
    
 <body>     
-    <h1>RTMP Sample Player FlowPlayer</h1> 
-   
     <!-- this A tag is where your Flowplayer will be placed. it can be anywhere --> 
     <a   
          href="#" 
-         style="display:block;width:520px;height:330px"   
+         style="display:block;width:1040px;height:660px"   
          id="player">  
     </a>  
     <!-- this will install flowplayer inside previous A- tag. --> 
     <script> 
     flowplayer("player", "flowplayer-3.2.18.swf",{  
         clip: {  
-          url: 'rtmp://11392.livepush.myqcloud.com/live/11392_57738ee8bea311e792905cb9018cf0d4?bizid=11392',
+          url: 'rtmp://www.chengjunfeng.cn:10000/hls/test',
           provider: 'rtmp', 
           live: true,  
         },   
         plugins: {   
            rtmp: {   
              url: 'flowplayer.rtmp-3.2.8.swf',   
-             netConnectionUrl: 'rtmp://11392.livepush.myqcloud.com/live/11392_57738ee8bea311e792905cb9018cf0d4?bizid=11392'
+             netConnectionUrl: 'rtmp://www.chengjunfeng.cn:10000/hls/test'
            }  
        }  
     }); 
-    </script> 
-   
-   
-    <p>        
-        Sample RTMP URL (Live) is "rtmp://11392.livepush.myqcloud.com/live/11392_57738ee8bea311e792905cb9018cf0d4?bizid=11392" 
-    </p> 
-       
+    </script>  
 </body> 
 </html> 
