@@ -1,11 +1,12 @@
 @echo off
-echo pull
+cd C:\Users\YangBei\Desktop\WeSafeAppDroid
+echo 1 ------ pull ------------------------------------------
 call autoBuild1.bat
-echo clean
+echo 2 ------ clean ------------------------------------------
 call autoBuild2.bat
-echo build
+echo 3 ------ build ------------------------------------------
 call autoBuild3.bat
-echo copy
-xcopy app\build\outputs\apk\release\*.apk     C:\Users\YangBei\Desktop\share\wesafeApp
-echo end
+echo 4 ------ copy ------------------------------------------
+xcopy app\build\outputs\apk\release\*.apk     C:\Users\YangBei\Desktop\share\wesafeApp /y
+echo 5 ------ end ------------------------------------------
 pause
