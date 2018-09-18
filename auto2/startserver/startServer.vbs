@@ -1,3 +1,3 @@
 set ws=WScript.CreateObject("WScript.Shell") 
 
-ws.Run "start.bat",0
+ws.Run "autoStart.bat",0

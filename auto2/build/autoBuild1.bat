@@ -1,3 +1,3 @@
 cd readme
 git pull
-gradlew build
+gradlew build  --info > build.log
