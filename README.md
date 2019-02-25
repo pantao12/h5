@@ -31,10 +31,10 @@
 
 
 ### 功能展示
-<img src='../pic/1.png' width = "270" height = "480" align=center />
-<img src='../pic/2.png' width = "270" height = "480" align=center />
-<img src='../pic/3.png' width = "270" height = "480" align=center />
-<img src='../pic/4.png' width = "270" height = "480" align=center />
+<img src='https://github.com/cheng-junfeng/h5/blob/master/pic/1.jpg' width = "270" height = "480" align=center />
+<img src='https://github.com/cheng-junfeng/h5/blob/master/pic/1.jpg' width = "270" height = "480" align=center />
+<img src='https://github.com/cheng-junfeng/h5/blob/master/pic/1.jpg' width = "270" height = "480" align=center />
+<img src='https://github.com/cheng-junfeng/h5/blob/master/pic/1.jpg' width = "270" height = "480" align=center />
 
 
 ### 有问题反馈
