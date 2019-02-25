@@ -30,6 +30,13 @@
 * 此处均是个人测试验证的demo, 请忽略
 
 
+### 功能展示
+<img src='../pic/1.png' width = "270" height = "480" align=center />
+<img src='../pic/2.png' width = "270" height = "480" align=center />
+<img src='../pic/3.png' width = "270" height = "480" align=center />
+<img src='../pic/4.png' width = "270" height = "480" align=center />
+
+
 ### 有问题反馈
 * 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
 * sjun945@outlook.com
